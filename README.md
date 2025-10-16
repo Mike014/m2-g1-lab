@@ -24,11 +24,24 @@ The main scene contains:
 *   **Static Objects:** Obstacles or structures without Rigidbodies to create a more interesting environment for collisions.
 *   **Basic Materials:** Different colored materials are applied to objects to distinguish their properties and behavior visually (e.g., a "bouncy" material vs. a "slippery" one).
 
-## How to Use
+## How to Use (Unity 2022.3.62f2)
 
-1.  Clone this repository.
-2.  Open the project in Unity (version 2022.3.62f2).
-3.  Navigate to the `Scenes` folder and open the main practice scene.
-4.  Press **Play** in the Unity Editor to see the physics simulation in action. You should see objects falling, colliding, and coming to rest.
+### Option A — Open the project **directly** from the repository (recommended)
+
+1. Clone this repository.
+2. In Unity Hub, go to **Add → Add project from disk**, and select the cloned folder.
+3. Open the project — Unity Hub will automatically detect the version from `ProjectSettings/ProjectVersion.txt`.
+4. Navigate to `Assets/Scenes/Main.unity` (or your main scene).
+5. Press **Play** to start the simulation.
+
+### Option B — Import the files into a **new empty project**
+
+1. Clone this repository.
+2. In Unity Hub, create a **new project** using the **same Unity version** (2022.3.62f2), then **close the Editor**.
+3. Inside the newly created project folder, delete the existing `Assets/`, `Packages/`, and `ProjectSettings/` folders.
+4. Copy the `Assets/`, `Packages/`, and `ProjectSettings/` folders from this repository into the root of your new project (overwrite if prompted).
+5. Reopen the project through Unity Hub.
+6. Navigate to `Assets/Scenes/Main.unity` (or your main scene).
+7. Press **Play** to run the project.
 
 This project is a foundational step in my journey to becoming a proficient Game Developer.
