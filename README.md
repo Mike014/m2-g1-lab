@@ -31,7 +31,7 @@ The main scene contains:
 3. Inside the newly created project folder, delete the existing `Assets/`, `Packages/`, and `ProjectSettings/` folders.
 4. Copy the `Assets/`, `Packages/`, and `ProjectSettings/` folders from this repository into the root of your new project (overwrite if prompted).
 5. Reopen the project through Unity Hub.
-6. Navigate to `Assets/Scenes/Main.unity` (or your main scene).
+6. Navigate to `Assets/Scenes/Esercizio1 or Esercizio2` (or your main scene).
 7. Press **Play** to run the project.
 
 This project is a foundational step in my journey to becoming a proficient Game Developer.
